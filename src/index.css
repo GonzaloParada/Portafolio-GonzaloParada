@@ -1,0 +1,50 @@
+.container-btn {
+  display: flex;
+  gap: 10px;
+}
+
+* {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f6f4eb;
+}
+
+.title {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: rgb(58, 58, 58);
+  padding-bottom: 30px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #c9c9c9;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #a51d55;
+  border-radius: 25px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #a51d56c7;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+}

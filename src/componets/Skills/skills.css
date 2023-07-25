@@ -1,0 +1,32 @@
+.container-skills-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  max-width: 900px;
+}
+.skills-icons {
+  width: 80%;
+}
+
+.div-skills-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 75px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+  border-radius: 5px;
+  transition: scale, box-shadow 0.4s;
+}
+.div-skills-icons:hover {
+  scale: 1.1;
+  box-shadow: 0px 0px 20px #a51d55;
+}
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}

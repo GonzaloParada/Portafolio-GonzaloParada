@@ -1,0 +1,32 @@
+.navbar {
+  position: fixed;
+  height: 80px;
+  height: 70px;
+  background-color: #f6f4eb;
+  width: 100%;
+  z-index: 200;
+  transition: box-shadow 0.5s;
+}
+
+.nav-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 25px;
+}
+
+.navbar-active {
+  box-shadow: 10px 0px 10px black;
+}
+.nav-item {
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.nav-item:hover {
+  color: #a51d55;
+}
