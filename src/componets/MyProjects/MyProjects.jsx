@@ -1,5 +1,5 @@
 import { ProjectContainer } from "../ProjectContainer/ProjectContainer";
-import { IMG_PROJETCS } from "../../Constants";
+import { IMG_PROJETCS } from "../../constants";
 import "./MyProjects.css";
 
 export const MyProjects = () => {

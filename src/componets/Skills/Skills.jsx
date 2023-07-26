@@ -1,4 +1,4 @@
-import { IMG_SKILLS_ROUTES } from "../../Constants";
+import { IMG_SKILLS_ROUTES } from "../../constants";
 import "./skills.css";
 
 export const Skills = () => {

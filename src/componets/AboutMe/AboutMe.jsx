@@ -2,7 +2,7 @@
 import myPhoto from "../../../public/assets/PhotoPortapolio.jpg";
 import "./AboutMe.css";
 import { Button } from "../Button/Button";
-import { URL_LK, RESUME } from "../../Constants";
+import { URL_LK, RESUME } from "../../constants";
 
 export const AboutMe = () => {
   return (
