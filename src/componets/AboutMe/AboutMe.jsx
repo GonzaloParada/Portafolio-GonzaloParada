@@ -1,5 +1,5 @@
 import React from "react";
-import myPhoto from "../../assets/PhotoPortapolio.jpg";
+import myPhoto from "../../../public/assets/PhotoPortapolio.jpg";
 import "./AboutMe.css";
 import { Button } from "../Button/Button";
 import { URL_LK, RESUME } from "../../Constants";
