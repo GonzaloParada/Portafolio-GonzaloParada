@@ -1,4 +1,4 @@
-import React from "react";
+/* eslint-disable react/no-unescaped-entities */
 import myPhoto from "../../../public/assets/PhotoPortapolio.jpg";
 import "./AboutMe.css";
 import { Button } from "../Button/Button";

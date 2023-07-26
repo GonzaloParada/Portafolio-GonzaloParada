@@ -1,4 +1,3 @@
-import React from "react";
 import { ProjectContainer } from "../ProjectContainer/ProjectContainer";
 import { IMG_PROJETCS } from "../../Constants";
 import "./MyProjects.css";

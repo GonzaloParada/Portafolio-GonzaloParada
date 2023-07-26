@@ -1,4 +1,4 @@
-import React from "react";
+/* eslint-disable react/prop-types */
 import "./Button.css";
 
 export const Button = ({ type, name, url }) => {
