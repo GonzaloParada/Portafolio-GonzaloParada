@@ -41,7 +41,8 @@ export const IMG_PROJETCS = [
     url: "https://react-ecommerce-urban.vercel.app/",
     urlcode: "https://github.com/GonzaloParada/react-ecommerce-urban",
     img: urban,
-    description: "Ecommerce con React y como base de datos firebase",
+    description:
+      "Welcome to Urban - Ecommerce for trendy urban clothing! powered by React and Firebase, offers real-time shopping cart updates using useContext. Discover the latest streetwear, enjoy a secure checkout, and get personalized recommendations. Join us now and embrace urban fashion with ease!",
   },
   {
     id: 2,
@@ -50,7 +51,7 @@ export const IMG_PROJETCS = [
     name: "Weather App",
     img: weatherapp,
     description:
-      "Aplicación de clima con React utilizando la API Powered by: WeatherAPI.com. Se utilizó la biblioteca de Material UI para los componentes de interfaz de usuario en la aplicación. La aplicación cuenta con dark mode como feature.",
+      "Introducing WeatherApp - a React weather app powered by WeatherAPI.com. Sleek Material UI design with dark mode feature for easy viewing. Get real-time weather updates and detailed forecasts for any city worldwide. Stay prepared with WeatherNow!",
   },
   {
     id: 3,
@@ -59,7 +60,7 @@ export const IMG_PROJETCS = [
     name: "Hanged game",
     img: hanged,
     description:
-      "Juego del ahorcado realizado para el Challange de Alura Latam - Oracle ONE. Realizado con HTML, CSS y JavaScript",
+      "Introducing 'Hangman Challenge' - An Alura Latam - Oracle ONE creation! Play the classic word-guessing game with HTML, CSS, and JavaScript. Guess the word to save the stick figure. Enjoy the challenge!",
   },
 ];
 
