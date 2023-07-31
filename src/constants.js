@@ -15,6 +15,7 @@ import python from "../public/assets/Icons/python-icon.png";
 import urban from "../public/assets/ProjectsImages/urban-img.png";
 import weatherapp from "../public/assets/ProjectsImages/weatherapp-img.png";
 import hanged from "../public/assets/ProjectsImages/hanged-img.png";
+import dolarapp from "../public/assets/ProjectsImages/dolarApp-img.png";
 import CV from "../public/assets/CV.pdf";
 
 export const IMG_SKILLS_ROUTES = [
@@ -55,6 +56,15 @@ export const IMG_PROJETCS = [
   },
   {
     id: 3,
+    url: "https://dolar-app-one.vercel.app/",
+    urlcode: "https://github.com/GonzaloParada/DolarApp",
+    name: "Dollar Value Visualization Application",
+    img: dolarapp,
+    description:
+      "Blue and Official Dollar Value Visualization Application, developed using React and Vite. I utilized the BlueLytics API to fetch data for the application. Additionally, to provide an impactful visual experience, I implemented interactive charts using the Chart.js library.",
+  },
+  {
+    id: 4,
     url: "https://gonzaloparada.github.io/Juego-Ahorcado-Alura-ONE/",
     urlcode: "https://github.com/GonzaloParada/Juego-Ahorcado-Alura-ONE",
     name: "Hanged game",
