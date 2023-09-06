@@ -1,14 +1,14 @@
 import css from "../public/assets/Icons/css-icon.png";
 import csharp from "../public/assets/Icons/csharp-icon.png";
 import html from "../public/assets/Icons/html-icon.png";
-import java from "../public/assets/Icons/java-icon.png";
 import javascript from "../public/assets/Icons/javascript-icon.png";
 import react from "../public/assets/Icons/react-icon.png";
 import typescipt from "../public/assets/Icons/typescript-icon.png";
 import mongo from "../public/assets/Icons/mongo-icon.png";
-import node from "../public/assets/Icons/node-icon.png";
 import sqlserver from "../public/assets/Icons/sqlserver-icon.png";
+import angular from "../public/assets/Icons/angular-icon.png";
 import mysql from "../public/assets/Icons/mysql-icon.png";
+import net from "../public/assets/Icons/net-icon.png";
 import vue from "../public/assets/Icons/vue-icon.png";
 import redux from "../public/assets/Icons/redux-icon.png";
 import python from "../public/assets/Icons/python-icon.png";
@@ -24,10 +24,10 @@ export const IMG_SKILLS_ROUTES = [
   javascript,
   typescipt,
   react,
-  java,
+  angular,
   csharp,
+  net,
   mongo,
-  node,
   sqlserver,
   mysql,
   vue,
