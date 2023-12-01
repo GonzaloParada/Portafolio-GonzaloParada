@@ -16,6 +16,7 @@ import urban from "../public/assets/ProjectsImages/urban-img.png";
 import weatherapp from "../public/assets/ProjectsImages/weatherapp-img.png";
 import hanged from "../public/assets/ProjectsImages/hanged-img.png";
 import dolarapp from "../public/assets/ProjectsImages/dolarApp-img.png";
+import cryptoapp from "../public/assets/ProjectsImages/cryptoApp-img.png";
 import CV from "../public/assets/CV.pdf";
 
 export const IMG_SKILLS_ROUTES = [
@@ -38,6 +39,15 @@ export const IMG_SKILLS_ROUTES = [
 export const IMG_PROJETCS = [
   {
     id: 1,
+    name: "CryptoApp",
+    url: "https://crypto-app-drab-seven.vercel.app/",
+    urlcode: "https://github.com/GonzaloParada/CryptoApp",
+    img: cryptoapp,
+    description:
+      "I developed an application using React and TypeScript that taps into the Coinranking API. This cryptocurrency API provided real-time price updates, comprehensive coin information, and insightful charts showcasing the day's fluctuations in coin value.",
+  },
+  {
+    id: 2,
     name: "Urban",
     url: "https://react-ecommerce-urban.vercel.app/",
     urlcode: "https://github.com/GonzaloParada/react-ecommerce-urban",
@@ -46,7 +56,7 @@ export const IMG_PROJETCS = [
       "Welcome to Urban - Ecommerce for trendy urban clothing! powered by React and Firebase, offers real-time shopping cart updates using useContext. Discover the latest streetwear, enjoy a secure checkout, and get personalized recommendations. Join us now and embrace urban fashion with ease!",
   },
   {
-    id: 2,
+    id: 3,
     url: "https://weather-app-react-flame.vercel.app/",
     urlcode: "https://github.com/GonzaloParada/WeatherApp-React",
     name: "Weather App",
@@ -55,7 +65,7 @@ export const IMG_PROJETCS = [
       "Introducing WeatherApp - a React weather app powered by WeatherAPI.com. Sleek Material UI design with dark mode feature for easy viewing. Get real-time weather updates and detailed forecasts for any city worldwide. Stay prepared with WeatherNow!",
   },
   {
-    id: 3,
+    id: 4,
     url: "https://dolar-app-one.vercel.app/",
     urlcode: "https://github.com/GonzaloParada/DolarApp",
     name: "Dollar Value Visualization Application",
@@ -64,7 +74,7 @@ export const IMG_PROJETCS = [
       "Blue and Official Dollar Value Visualization Application, developed using React and Vite. I utilized the BlueLytics API to fetch data for the application. Additionally, to provide an impactful visual experience, I implemented interactive charts using the Chart.js library.",
   },
   {
-    id: 4,
+    id: 5,
     url: "https://gonzaloparada.github.io/Juego-Ahorcado-Alura-ONE/",
     urlcode: "https://github.com/GonzaloParada/Juego-Ahorcado-Alura-ONE",
     name: "Hanged game",
